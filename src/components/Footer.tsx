@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">C K. Ofori Phone Solutions</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="C K. Ofori Phone Solutions" className="w-14 h-14 object-contain" />
+              <h3 className="text-xl font-bold">C K. Ofori Phone Solutions</h3>
+            </div>
             <p className="text-background/70 mb-4">
               Your trusted partner for quality phones, accessories, and expert repair services in Akwamu-Akrade.
             </p>
