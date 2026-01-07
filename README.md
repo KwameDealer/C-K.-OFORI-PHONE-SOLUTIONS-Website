@@ -41,7 +41,7 @@ Upload your images to these folders with the specified names:
 | `slide1.jpg` | Hero slide 1 - "Latest Smartphones" |
 | `slide2.jpg` | Hero slide 2 - "Premium Accessories" |
 | `slide3.jpg` | Hero slide 3 - "Expert Repairs" |
-
+| `slide4.jpg` | Hero slide 4 - "Phone Covers"  |
 ---
 
 ### 📱 PHONE IMAGES
