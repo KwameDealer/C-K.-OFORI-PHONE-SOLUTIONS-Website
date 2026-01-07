@@ -3,7 +3,7 @@
 Welcome to the official website for **C K. OFORI PHONE SOLUTIONS**, a business based in Akwamu-Akrade, Eastern Region, Ghana. We sell **mobile phones**, **phone accessories**, and offer **expert phone repair services**.
 
 ---
-## 📌 Website Features
+## 📌 Website Address
 https://gear-gems.lovable.app/
 ---
 ## 📌 Website Features
