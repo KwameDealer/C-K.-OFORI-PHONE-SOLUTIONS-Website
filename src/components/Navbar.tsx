@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -20,9 +21,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full gradient-primary flex items-center justify-center">
-              <Phone className="w-5 h-5 text-white" />
-            </div>
+            <img src={logo} alt="C K. Ofori Phone Solutions" className="w-12 h-12 object-contain" />
             <span className="font-bold text-lg hidden sm:block">C K. Ofori</span>
           </a>
 
