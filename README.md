@@ -69,7 +69,21 @@ Upload your images to these folders with the specified names:
 | `accessory4.jpg` | USB Cables |
 | `accessory5.jpg` | Wireless Earbuds |
 | `accessory6.jpg` | Screen Protectors |
+// In src/data/products.ts
 
+// 1. Import your image at the top
+import phone7 from "@/assets/phones/phone7.jpg";
+
+// 2. Add to the phones array
+export const phones = [
+  // ... existing phones
+  {
+    image: phone7,  // Use the import name
+    name: "Your Phone Name",
+    price: "GH₵ X,XXX",
+    category: "Brand",
+  },
+];
 ---
 
 ### 🏪 LOGO
