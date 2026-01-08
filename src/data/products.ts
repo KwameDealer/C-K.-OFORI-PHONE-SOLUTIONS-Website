@@ -25,7 +25,7 @@
 // Uncomment and use these when you upload your images:
 // import accessory1 from "@/assets/accessories/accessory1.jpg";
 import accessory2 from "@/assets/accessories/accessory2.jpg";
-// import accessory3 from "@/assets/accessories/accessory3.jpg";
+import accessory3 from "@/assets/accessories/accessory3.jpg";
 // import accessory4 from "@/assets/accessories/accessory4.jpg";
 // import accessory5 from "@/assets/accessories/accessory5.jpg";
 // import accessory6 from "@/assets/accessories/accessory6.jpg";
@@ -91,7 +91,7 @@ export const accessories = [
     price: "GH₵ 150 – 400",
   },
   {
-    image: "https://m.media-amazon.com/images/I/71YkzZz0fFL._AC_SL1000_.jpg", // Replace with: accessory3
+    image: accessory3, // Replace with: accessory3
     name: "Phone Covers",
     price: "GH₵ 40 – 200",
   },
